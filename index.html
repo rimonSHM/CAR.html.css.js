@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+
+</head>
+<body>
+
+    <!----- HEADER-->
+   <header class="header" id="header">
+  <nav class="nav  container">
+    <a href="#home" class="nav__logo">AVENTADOR</a>
+
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link active-link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#models" class="nav__link">Models</a></li>
+        <li><a href="#info" class="nav__link">Information</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <!-- Close button -->
+      <button class="nav__close" id="nav-close" aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- Toggle button -->
+    <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+     <i class="fa-solid fa-bars"></i>
+    </button>
+  </nav>
+</header>
+    
+
+    <!--========== MAIN ===========-->
+    <class="main">
+        <section class="home grid section">
+          <img src="https://www.islands.com/img/gallery/hidden-in-the-desert-of-saudi-arabia-is-a-nature-reserve-with-surreal-landscapes/intro-1730306941.jpg" alt="image" class="home__bg">
+          <div class="home__gradient"></div>
+
+          <div class="home__data">
+            <h3 class="home__subtitle">CHOOSE YOUR AVENTADOR</h3>
+            <h1 class="home__title">AVENTADOR</h1>
+          </div>
+          <div class="home__swiper swiper">
+            <div class="swiper-wrapper">
+                <article class="home__article swiper-slide">
+                  <img src="https://www.motortrend.com/uploads/sites/5/2020/06/2020-lamborghini-aventador.png" alt="image" class="home__img">
+                </article>
+
+                <article class="home__article swiper-slide">
+                  <img src="https://d2ivfcfbdvj3sm.cloudfront.net/7fc965ab77efe6e0fa62e4ca1ea7673bb45c415700173c8687c5/stills_0640_png/MY2012/7606/7606_st0640_116.png" alt="image" class="home__img">
+                </article>
+
+                <article class="home__article swiper-slide">
+                  <img src="https://cdn.pngedits.com/uploads/preview/lamborghini-aventador-png-clipart-hd-11626604960hnm52xyxzc.png" alt="image" class="home__img">
+                </article>
+
+                <article class="home__article swiper-slide">
+                  <img src="https://pngimg.com/uploads/lamborghini/lamborghini_PNG10693.png" alt="image" class="home__img">
+                </article>
+
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+
+        <a href="#about" class="home__button" role="button">
+            <span class="home__button-text">START</span>
+            <i class="fa-solid fa-chevron-down"></i>
+       </a>
+          
+        </section>
+
+        <!------ ABOUT-->
+
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                      DESIGNED TO <br>
+                      <span>Go BEYOND</span> <br> PERFORMANCE
+         
+                    </h2>
+
+                    <P class="about__description">
+                      Revolutionary thinking is at the heart of every Lamborghini car idea, whether it is the design inspired or the technoies applied to natural aspiration
+                    </P>
+                    <a href="#" class="button button__ghost">
+                      DETAILS  
+                    </a>
+                </div>
+
+                <div class="about__video">
+                    <video src="https://v.ftcdn.net/12/97/96/83/240_F_1297968384_kLXxH1Dpn3QyL9BZfHu8NMTNB8KDwtFb_ST.mp4" autoplay loop muted class="about__file"></video>
+                </div>
+            </div>
+        </section>
+
+        <section class="models section" id="models">
+          <h2 class="section__title">
+            INSPIRED BY <br>
+            COLORS OF NATURE
+          </h2>
+
+          <div class="models__container container grid">
+             <article class="models__card">
+              <img src="https://openclipart.org/image/2000px/344066" alt="image" class="models__img">
+
+              <div class="models__gradient"></div>
+
+              <div class="models__data">
+                <h3 class="models__name">Silver Aventador</h3>
+                <span class="models__info">495km/s</span>
+               </div>
+             </article> 
+
+                <article class="models__card">
+              <img src="https://www.reliancegeneral.co.in/siteassets/rgiclassets/images/blogs-images/top-5-fastest-cars-in-the-world2.webp" alt="image" class="models__img">
+
+              <div class="models__gradient"></div>
+
+              <div class="models__data">
+                <h3 class="models__name">Yellow Aventador</h3>
+                <span class="models__info">245km/s</span>
+              </div>
+             </article>
+
+                <article class="models__card">
+              <img src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&height=900&width=1600&fit=bounds" alt="image" class="models__img">
+
+              <div class="models__gradient"></div>
+
+              <div class="models__data">
+                <h3 class="models__name">Blue Aventador</h3>
+                <span class="models__info">395km/s</span>
+              </div>
+             </article>
+             
+          </div>
+        </section>
+
+       <!--===================== INFORMATON ===============-->
+       <section class="info section" id="info">
+        <span class="section__subtitle"> CHOOSE YOUR AVENTADOR</span>
+        <h2 class="section__title info__title">
+          AVENTADOR LP <br>
+          790-5 ULTIMAE
+        </h2>
+
+        <div class="info__container container grid">
+          <div class="info__content">
+             <h1 class="info__number">> 780-4 ></h1>
+             <img src="https://toyota.com.bd/cmsimages/fwCoZZN4r89-PY3etAREtRUDYa0=/2425/fill-680x381-c0/Brand_New_Toyota_Camry_Hybrid_Thumbnail_exp2_Navana_Limited_2.png" alt="image" class="info__img">
+          </div>
+
+          <div class="info__data">
+              <div class="info__group">
+                <h3>POWER (KW)</h3>
+                <P>780 CV (574 KW) <br> 8.500 rpm</P>
+                <p></p>
+              </div>
+
+               <div class="info__group">
+                <h3>MAX. SPEED</h3>
+                <p>355 KM/h</p>
+              </div>
+              
+                <div class="info__group">
+                <h3>0-100 KM/H</h3>
+                <p>2.8 - 2.9s</p>
+              </div>
+          </div>
+        </div>
+       </section>
+
+       <!--============ CONTACT=============-->
+       <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title contact__title">
+              SUBSCRIBE TO GET <br>
+              YOUR AVENTADOR
+            </h2>
+
+            <form action="" class="contact__form grid">
+              <div class="contact__inputs grid">
+                <div class="contact__box">
+                  <label for="name" class="contact__label">Names</label>
+                  <input type="text" id="name" placeholder="Enter names" class="contact__input">
+                </div>
+
+               <div class="contact__box">
+                  <label for="email" class="contact__label">Email</label>
+                  <input type="email" id="email"  placeholder="Enter email" class="contact__input">
+                </div> 
+              </div>
+
+              <button class="button contact__button">
+                SEND EMAIL
+              </button>
+            </form>
+          </div>
+
+          <img src="https://www.usnews.com/object/image/00000191-d821-d8b8-adf7-f97944b10000/chevrolet-corvette-zr1-coupe-001.jpg?update-time=1725907944302&size=responsiveGallery&format=webp" alt="image" class="contact__img">
+        </div>
+       </section>
+
+    </main>
+
+    <!--=============== FOOTER =============-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+          <a href="" class="footer__logo">AVENTADOR</a>
+
+          <ul class="footer__links">
+             <li>
+              <a href="" class="footer__link">Privacy & Legal</a>
+             </li>
+             <li>
+              <a href="" class="footer__link">Contact</a>
+             </li>
+              <li>
+              <a href="" class="footer__link">Locations</a>
+             </li>
+             <li>
+              <a href="" class="footer__link">News</a>
+             </li>
+             <li>
+              <a href="" class="footer__link">Forums</a>
+             </li>
+          </ul>
+
+          <div class="footer__social">
+              <a href="#" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-facebook"></i>
+              </a>
+               <a href="#" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-square-instagram"></i>
+              </a>
+               <a href="#" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+              </a>
+          </div>
+        </div> 
+
+        <span class="footer__copy">
+             &#169; All Rights Reserved By Bedimcode
+        </span>
+    </footer>
+
+     
+         <!-- =============== SCROLL UP================-->
+          <a href="" class="scrollup" id="scroll-up">
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+          <script src="llreveal/refs/heads/master/dist/scrollreveal.min.js"></script>
+
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="text.js"></script>
+    
+</body>
+  </html> 
